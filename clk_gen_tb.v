@@ -1,3 +1,10 @@
+// function to generate f = 1/[(2*[Divider] + 2) * (T.P of Master clk)]
+// call above function from design
+// function will return freq value
+// round off the freq value
+// convert round off value to T.P
+// in 
+
 //`include "spi_defines.v"
 `define SPI_DIVIDER_LEN      5  // Can be set from 1 to 8
 module spi_clgen_tb;
